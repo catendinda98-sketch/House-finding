@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Listings - House Hunting</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🏠 House Listings</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="listings.html" class="active">Listings</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="help.html">Help</a>
+      <a href="login.html">Logout</a>
+    </nav>
+  </header>
+
+  <section class="content">
+    <h2>Available Houses</h2>
+    <div class="listing-container">
+      <!-- House 1 -->
+      <div class="house-card">
+        <img src="House 1.webp" alt="House 1">
+        <h3>Brayvin Apartments</h3>
+        <p><strong>Location:</strong> Kangaru, Embu</p>
+        <p><strong>Price:</strong> Ksh6,500</p>
+        <button onclick="viewDetails('Bedsitter for rent')">View Details</button>
+      </div>
+
+      <!-- House 2 -->
+      <div class="house-card">
+        <img src="house2.webp" alt="House 2">
+        <h3>Old Traford Apartment</h3>
+        <p><strong>Location:</strong> G-Town, Embu</p>
+        <p><strong>Price:</strong> Ksh3,500</p>
+        <button onclick="viewDetails('Single rooms available')">View Details</button>
+      </div>
+
+      <!-- House 3 -->
+      <div class="house-card">
+        <img src="house 3.webp" alt="House 3">
+        <h3>Cozy Apartment</h3>
+        <p><strong>Location:</strong> Bagik, Embu</p>
+        <p><strong>Price:</strong> Ksh5,800</p>
+        <button onclick="viewDetails('Bedsitters available for rent')">View Details</button>
+      </div>
+
+      <!-- House 4 -->
+      <div class="house-card">
+        <img src="house 4.webp" alt="House 4">
+        <h3>Riverside Apartment</h3>
+        <p><strong>Location:</strong> Njukiiri, Embu</p>
+        <p><strong>Price:</strong> Ksh4,000</p>
+        <button onclick="viewDetails('Single rooms available')">View Details</button>
+      </div>
+
+      <!-- House 5 -->
+       <div class="house-card">
+        <img src="house 5.webp" alt="House 5">
+        <h3>Tenda Wema Apartments</h3>
+        <p><strong>Location:</strong> Blue Valley, Embu</p>
+        <p><strong>Price:</strong> Ksh5,800</p>
+        <button onclick="viewDetails('Bedsitters available for rent')">View Details</button>
+       </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>Developed by Catherine Ndinda © 2025</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
